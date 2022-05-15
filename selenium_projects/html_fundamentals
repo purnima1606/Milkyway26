@@ -1,0 +1,25 @@
+# *************  HTML *******************
+1. hyper text markup language
+2. HTML is markup language that web developers use to structure and design the content of a webpage(HTML is not programming language)
+3. HTML consist of elements(web elements) that describe diffrent type of contains like links,  headings, images, text boxes , radio buttons, check boxes etc
+4. browser understand html and renders HTML code as websites   # css and java script
+
+# *********** HTML ELEMENT ********************
+
+# ............ web element ..............
+<a href="https://www.google.com">Google</a>
+
+<a = open tag : name of the element wrapped in < and >
+href = Attribute name
+"https://www.google.com" = Attribute value
+google = text of the element
+</a> = close tag: same as opening tag: but with /
+
+# ********************** LANGUAGES OF FRONT-END *********************
+
+HTML = content
+CSS = presentation
+java script = dynamic effect
+
+
+

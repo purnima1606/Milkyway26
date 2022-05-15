@@ -1,0 +1,15 @@
+Apple:https://services.smartbear.com/samples/TestComplete14/smartstore/demo
+Google:https://services.smartbear.com/samples/TestComplete14/smartstore/spam
+Mobiles:https://services.smartbear.com/samples/TestComplete14/smartstore/apple
+Sports:https://services.smartbear.com/samples/TestComplete14/smartstore/sports
+Furniture:https://services.smartbear.com/samples/TestComplete14/smartstore/furniture
+Sunglasses:https://services.smartbear.com/samples/TestComplete14/smartstore/sunglasses
+Watches:https://services.smartbear.com/samples/TestComplete14/smartstore/watches
+Gaming:https://services.smartbear.com/samples/TestComplete14/smartstore/gaming
+iPhone:https://services.smartbear.com/samples/TestComplete14/smartstore/iphone
+News:https://services.smartbear.com/samples/TestComplete14/smartstore/news
+Blog:https://services.smartbear.com/samples/TestComplete14/smartstore/blog
+Payment:https://services.smartbear.com/samples/TestComplete14/smartstore/paymentinfo
+All Brands:https://services.smartbear.com/samples/TestComplete14/smartstore/manufacturer/all
+Forums:https://services.smartbear.com/samples/TestComplete14/smartstore/boards
+Android:https://services.smartbear.com/samples/TestComplete14/smartstore/iphone
