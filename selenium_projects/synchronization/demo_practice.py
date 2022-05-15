@@ -1,42 +1,42 @@
-
-# from selenium.webdriver import Chrome
-# from time import sleep
-# from selenium.webdriver.support.select import Select
-# import csv
-# import re
-# from selenium.common.exceptions import NoSuchElementException
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support.expected_conditions import visibility_of_element_located
-# from selenium.webdriver.remote.webelement import WebElement
-# from selenium.webdriver.common.action_chains import ActionChains
 #
-# driver = Chrome(r"C:\Users\user\Desktop\training\chromedriver")
-# driver.get("file:///C:/Users/user/Desktop/google_drive%20folder/loading.html")
-# sleep(5)
-#
-# class _visibility_of_element_located(visibility_of_element_located):
-#     def __init__(self, locator):
-#         super().__init__(locator)
-#
-#     def __call__(self, driver):
-#         result = super().__call__(driver)
-#         # Checking if __call__ has returned a WebElement?
-#         if isinstance(result, WebElement):
-#             return result.is_enabled()
-#         return result
-#
-#
-#
-# wait = WebDriverWait(driver,10)
-# v = _visibility_of_element_located(("name", "fname"))
-# wait.until(v)
-# print("done")   # done
-#
-# driver.find_element_by_name("fname").send_keys("Hello")
+# # from selenium.webdriver import Chrome
+# # from time import sleep
+# # from selenium.webdriver.support.select import Select
+# # import csv
+# # import re
+# # from selenium.common.exceptions import NoSuchElementException
+# # from selenium.webdriver.support.ui import WebDriverWait
+# # from selenium.webdriver.support.expected_conditions import visibility_of_element_located
+# # from selenium.webdriver.remote.webelement import WebElement
+# # from selenium.webdriver.common.action_chains import ActionChains
+# #
+# # driver = Chrome(r"C:\Users\user\Desktop\training\chromedriver")
+# # driver.get("file:///C:/Users/user/Desktop/google_drive%20folder/loading.html")
+# # sleep(5)
+# #
+# # class _visibility_of_element_located(visibility_of_element_located):
+# #     def __init__(self, locator):
+# #         super().__init__(locator)
+# #
+# #     def __call__(self, driver):
+# #         result = super().__call__(driver)
+# #         # Checking if __call__ has returned a WebElement?
+# #         if isinstance(result, WebElement):
+# #             return result.is_enabled()
+# #         return result
+# #
+# #
+# #
+# # wait = WebDriverWait(driver,10)
+# # v = _visibility_of_element_located(("name", "fname"))
+# # wait.until(v)
+# # print("done")   # done
+# #
+# # driver.find_element_by_name("fname").send_keys("Hello")
 # # execute properly
-
-#########################################################
-
+#
+# #########################################################
+#
 # from selenium.webdriver import Chrome
 # from time import sleep
 # from selenium.webdriver.support.select import Select
@@ -99,8 +99,8 @@
 #
 # click_element(("id", "register-button"))
 # sleep(2)
-
-# execute
+#
+# # execute
 
 
 ##################################################################################
@@ -422,7 +422,7 @@
 #
 # driver.find_element_by_xpath("//button[text()='Click Me']").click()
 #
-# wait = WebDriverWait(driver, 10)
+# wait = WebDriverWait(driver, 30)
 # v = _visibility_of_element_located(("xpath", "//div[text()='100%']"))
 # # print(v)
 # # wait.until(v)
@@ -576,11 +576,11 @@
 # print(register)  # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
 # register.click()
 #
-# # print(register)   # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
-#
+# print(register)   # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
+
 # register.click()
-#
-#
+
+
 
 # register = driver.find_element_by_link_text("Register")
 # print(register)  # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
