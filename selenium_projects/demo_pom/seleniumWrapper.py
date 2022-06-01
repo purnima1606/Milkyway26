@@ -12,3 +12,4 @@ class SeleniumWrapper:
     @wait   # click_element = wait(click_element)
     def click_element(self, locator):
         self.driver.find_element(*locator).click()
+

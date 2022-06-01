@@ -1,38 +1,38 @@
+# #
+# # # from selenium.webdriver import Chrome
+# # # from time import sleep
+# # # from selenium.webdriver.support.select import Select
+# # # import csv
+# # # import re
+# # # from selenium.common.exceptions import NoSuchElementException
+# # # from selenium.webdriver.support.ui import WebDriverWait
+# # # from selenium.webdriver.support.expected_conditions import visibility_of_element_located
+# # # from selenium.webdriver.remote.webelement import WebElement
+# # # from selenium.webdriver.common.action_chains import ActionChains
 #
-# # from selenium.webdriver import Chrome
-# # from time import sleep
-# # from selenium.webdriver.support.select import Select
-# # import csv
-# # import re
-# # from selenium.common.exceptions import NoSuchElementException
-# # from selenium.webdriver.support.ui import WebDriverWait
-# # from selenium.webdriver.support.expected_conditions import visibility_of_element_located
-# # from selenium.webdriver.remote.webelement import WebElement
-# # from selenium.webdriver.common.action_chains import ActionChains
-# #
-# # driver = Chrome(r"C:\Users\user\Desktop\training\chromedriver")
-# # driver.get("file:///C:/Users/user/Desktop/google_drive%20folder/loading.html")
-# # sleep(5)
-# #
-# # class _visibility_of_element_located(visibility_of_element_located):
-# #     def __init__(self, locator):
-# #         super().__init__(locator)
-# #
-# #     def __call__(self, driver):
-# #         result = super().__call__(driver)
-# #         # Checking if __call__ has returned a WebElement?
-# #         if isinstance(result, WebElement):
-# #             return result.is_enabled()
-# #         return result
-# #
-# #
-# #
-# # wait = WebDriverWait(driver,10)
-# # v = _visibility_of_element_located(("name", "fname"))
-# # wait.until(v)
-# # print("done")   # done
-# #
-# # driver.find_element_by_name("fname").send_keys("Hello")
+# driver = Chrome(r"C:\Users\user\Desktop\training\chromedriver")
+# driver.get("file:///C:/Users/user/Desktop/google_drive%20folder/loading.html")
+# sleep(5)
+#
+# class _visibility_of_element_located(visibility_of_element_located):
+#     def __init__(self, locator):
+#         super().__init__(locator)
+#
+#     def __call__(self, driver):
+#         result = super().__call__(driver)
+#         # Checking if __call__ has returned a WebElement?
+#         if isinstance(result, WebElement):
+#             return result.is_enabled()
+#         return result
+#
+#
+#
+# wait = WebDriverWait(driver,10)
+# v = _visibility_of_element_located(("name", "fname"))
+# wait.until(v)
+# print("done")   # done
+#
+# driver.find_element_by_name("fname").send_keys("Hello")
 # # execute properly
 #
 # #########################################################
@@ -101,10 +101,10 @@
 # sleep(2)
 #
 # # execute
-
-
-##################################################################################
-
+#
+#
+# #################################################################################
+#
 # from selenium.webdriver import Chrome
 # from time import sleep
 # from selenium.webdriver.support.select import Select
@@ -183,10 +183,10 @@
 # s.select_items(("id", "multiple_cars"), items=['Mercedes', 'Creta', 'BMW', 6 ])     # ,10
 #
 # # output = Could not find item Creta
-
-
-####################################################################################################
-
+#
+#
+# ###################################################################################################
+#
 # from selenium.webdriver import Chrome
 # from time import sleep
 # from selenium.webdriver.support.select import Select
@@ -249,9 +249,9 @@
 #
 # click_element(("id", "register-button"))
 # sleep(2)
-
+#
 # execute..
-####################################################################################################
+# ###################################################################################################
 #
 # from selenium.webdriver import Chrome
 # from time import sleep
@@ -320,8 +320,8 @@
 # sleep(2)
 #
 # # execute.......
-
-#########################################################################################################
+#
+# ########################################################################################################
 #
 # from selenium.webdriver.support import wait
 # from selenium.webdriver.support.ui import WebDriverWait
@@ -384,13 +384,13 @@
 #
 # driver.find_element("id", "register-button").click()
 # sleep(2)
-
+#
 # execute
-
-#######################################################################################################
-
-
-#######################################################################################################
+#
+# ######################################################################################################
+#
+#
+# ######################################################################################################
 # from selenium.webdriver.support import wait
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver import Chrome
@@ -429,7 +429,7 @@
 #
 # # print("done")
 #
-####################################################################################
+# ###################################################################################
 #
 # from selenium.webdriver import Chrome
 # from time import sleep
@@ -513,8 +513,8 @@
 # sleep(2)
 #
 # # execute
-
-################################################################################################
+#
+# ###############################################################################################
 # from selenium.webdriver import Chrome
 # from time import sleep
 # from selenium.webdriver.support.select import Select
@@ -577,11 +577,11 @@
 # register.click()
 #
 # print(register)   # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
-
+#
 # register.click()
-
-
-
+#
+#
+#
 # register = driver.find_element_by_link_text("Register")
 # print(register)  # <selenium.webdriver.remote.webelement.WebElement (session="a8a4353907ab98a6f63a0c6ddae8e4fc", element="a45a5c0a-fa9b-4ba6-853a-c52bc8237c8f")>
 # register.click()
@@ -592,12 +592,12 @@
 #
 # # <selenium.webdriver.remote.webelement.WebElement (session="a73cfb0cbea145364c37d50cffbe73fd", element="29fe3f30-e8a8-4f99-b2d9-bc080e7bd1f6")>
 # # <selenium.webdriver.remote.webelement.WebElement (session="a73cfb0cbea145364c37d50cffbe73fd", element="072eef8f-9de7-4289-b2f2-1e7dd665df66")>
-
+#
 # staleException
 # each click generate new id number, and if we use old one then we will get staleException
-
-
-####################################################################################################
+#
+#
+# ###################################################################################################
 #
 # from selenium.webdriver import Chrome
 # from time import sleep
@@ -666,10 +666,10 @@
 # s = Select(box)
 # s.select_by_visible_text("Ceated on")
 # sleep(4)
-
+#
 # ????????????????????????????????????????????????????????????????????
-#########################################################################################
-
+# ########################################################################################
+#
 # from selenium.webdriver import Chrome
 # from time import sleep
 # from selenium.webdriver.support.select import Select
