@@ -1,0 +1,36 @@
+class Employee:
+	def __init__(self,fname,lname,pay):
+		self.fname = fname
+		self.lname = lname
+		self.pay = pay
+	@property
+	def fname(self):
+		return self._fname
+
+	@fname.setter
+	def fname(self,value):
+		if len(value) >5:
+			raise ValueError("Fname cannot be more than 5 character")
+		self._fname = value
+	@property
+	def lname(self):
+		return self._lname
+
+	@lname.setter
+	def lname(self,value):
+		if len(value) > 5:
+			raise ValueError("Lname cannot be more than 5 character")
+		self._lname = value
+
+
+	@property
+	def pay(self):
+		return self._pay
+
+	@pay.setter
+	def pay(self,value);
+		if value < 500:
+			raise Exception
+		if not isinstance(value, (int, float))
+			raise Exception
+		self._pay = value

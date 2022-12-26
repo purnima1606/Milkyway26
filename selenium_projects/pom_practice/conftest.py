@@ -1,4 +1,4 @@
-
+from selenium.webdriver import Chrome
 from pytest import fixture
 
 @fixture

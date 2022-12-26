@@ -1,0 +1,42 @@
+*2nd round interview questions of Sony*
+1. What are your achievements, challenges, roles & responsibilities?
+2. When did you join Test Yantra?
+3. Address of previous company
+4. what is your current location?
+5. In which location & which floor your previous company is?
+6. What are the products of previous company?
+7. What is your previous project name?
+8. Tell me the url of your webpage 
+9. Why is it not public till now?
+10. In which module you have to work?
+11. What is framework, POM in details
+12. How many no. of test cases you have written on login page?
+13. Give me some condition based on modules, negative test cases, positive test cases
+14. How many years of experience do you have?
+15. What is name of client?
+16. What is the locations of client?
+17. Tell me all possible test scenario of login page
+18. How many test cases you have perfomed on Password field?
+19. Apart from Login in which modules you have worked
+20. What type of framework you have used in your project?
+21. Have you create your own framework?
+22. Describe login page in details
+23. In project what types of operation your have performed through automation?
+24. How many no of Test Engineer over there
+25. Who writes the test cases
+26. What is current requirement of your company?
+27. if you have all the requirement what will be your first approach?
+28. What did you do in your project & which modules ?
+29. Tell me loginpage(framework) in details
+30. What is assertion 
+31. How to take screenshot?
+32. Why we take screenshot?
+33. How can you say that these test cases are passed or fail?
+34. when you was testing that time the requirement of password was 8 character but after updation now its 12 characters instead of 8 character what will you do what will be your approach ?
+35. Where did you learn Python & Selenium?
+36. What is Python why its so popular?
+37. cross questions on previous quesiton
+38. How to write Python Program?
+39. What are Python Standards?
+40. Rate yourself in Python
+41. One Python program
